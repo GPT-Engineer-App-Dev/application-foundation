@@ -18,6 +18,10 @@ const Index = () => {
 
   return (
     <div className="flex flex-col min-h-screen">
+      <header className="bg-blue-500 text-white p-4 text-center">
+        <h2 className="text-2xl font-bold">Hello! Welcome to My Application</h2>
+      </header>
+
       <main className="flex-grow container mx-auto p-4">
         <h1 className="text-3xl font-bold mb-6">My Application</h1>
         
